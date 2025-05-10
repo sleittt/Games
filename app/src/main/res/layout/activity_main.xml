@@ -28,7 +28,8 @@
             android:layout_weight="0"
             android:hint="Введите число"
             android:digits="0123456789.-"
-            android:inputType="numberSigned" />
+            android:inputType="numberSigned"
+            tools:ignore="TouchTargetSizeCheck"/>
 
         <Button
             android:id="@+id/button"
@@ -47,7 +48,8 @@
             android:layout_weight="0"
             android:hint="Введите число"
             android:digits="0123456789.-"
-            android:inputType="numberSigned"/>
+            android:inputType="numberSigned"
+            tools:ignore="TouchTargetSizeCheck"/>
 
         <Space
             android:layout_width="wrap_content"
